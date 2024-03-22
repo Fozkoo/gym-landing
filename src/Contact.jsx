@@ -15,16 +15,14 @@ function Contact() {
     <>
         <section className='Contact-section'>
 
-        <div className="container-slider flex h-26 bg-[#BEBEBE]">
-
-
+        <div className="container-slider flex h-[550px] bg-[#BEBEBE]">
                 <div className="container-text-tittle flex justify-center text-center w-6/12 bg-red-500">
                     <img src={imgContact} alt="" />
                 </div>
 
                 <div className="container-img  w-6/12 flex justify-center items-center">
 
-                    <div className="text-form  h-96 w-10/12">
+                    <div className="text-form w-10/12">
 
                         <div className="text-1  font-medium text-[#8F8F8F]">
                             <h2 className='text-2xl'>NUEVOS SOCIOS</h2>
@@ -44,7 +42,7 @@ function Contact() {
                         </div>
 
                         <div className="boton w-4/6 p-3 mt-5 flex justify-center">
-                             <a href="#" className='opciones-nav2 bg-[black] text-white border-2 border-black px-10 py-2 rounded-full hover:bg-[#FFC900] hover:text-black hover:border-[#FFC900]  transition-colors duration-500'>Charla con un asesor</a>
+                             <a href="" className='opciones-nav2 bg-[black] text-white border-2 border-black px-10 py-2 rounded-full hover:bg-[#FFC900] hover:text-black hover:border-[#FFC900]  transition-colors duration-500'>Charla con un asesor</a>
                         </div>
                     </div>
                 </div>
