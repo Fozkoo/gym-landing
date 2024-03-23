@@ -17,8 +17,12 @@ function App() {
 
         <div className="container flex justify-between items-center px-10">
 
+
             <div className="container-logo flex">
+              <a href="#">
               <img src={gymLogo} className='img-fluid h-12' alt="Gym Logo" />
+              </a>
+
             </div>
 
             <div className="container-hamburger lg:hidden">
