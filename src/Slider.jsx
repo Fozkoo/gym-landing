@@ -4,6 +4,7 @@ import imgSection from './assets/SC-WEB-Banner-home-1.jpg'
 import imgContact from './assets/SC-WEB-Averiguadores.jpg'
 
 import gymLogo from './assets/logo-gym.png'
+import MenuResponsive from './MenuResponsive'
 import './App.css'
 
 
@@ -13,9 +14,11 @@ function Slider() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <>  
+
+        
         <section className="">
-            <div className="container-slider flex h-26 bg-black">
+            <div className="container-slider flex h-26 bg-black max-lg:hidden">
                 <div className="container-text-tittle flex justify-center text-center w-6/12 ">
                     <div className="contenido flex justify-center  flex-col w-6/12 h-6/12 ">
                         <div className="contain-h2 flex text-white text-center h-16 text-base font-semibold ">
@@ -50,3 +53,7 @@ function Slider() {
 }
 
 export default Slider
+
+
+
+   

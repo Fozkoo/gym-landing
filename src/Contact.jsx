@@ -13,7 +13,7 @@ function Contact() {
 
   return (
     <>
-        <section className='Contact-section'>
+        <section className='Contact-section max-lg:hidden'>
 
         <div className="container-slider flex h-[550px] bg-[#BEBEBE]">
                 <div className="container-text-tittle flex justify-center text-center w-6/12 bg-red-500">

@@ -6,7 +6,7 @@ function Footer (){
 
     return (
         <>
-            <section className="footer">
+            <section className="footer max-lg:hidden">
                 <div className="container-footer bg-black h-[700px] flex flex-col justify-items-center justify-center items-center">
                     <div className="container text-white  flex justify-between p-40">
 
@@ -132,11 +132,6 @@ function Footer (){
 
                 </div>
             </section>
-            
-        
-        
-        
-        
         </>
 
 

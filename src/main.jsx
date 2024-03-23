@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Slider from './Slider.jsx'
 import Contact from './Contact.jsx'
 import Footer from './footer.jsx'
+import MenuResponsive from './MenuResponsive.jsx'
 
 import './index.css'
 import '@fontsource-variable/onest';
