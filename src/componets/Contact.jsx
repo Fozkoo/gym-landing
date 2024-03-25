@@ -1,9 +1,6 @@
 import { useState } from 'react'
-import imgContact from './assets/SC-WEB-Averiguadores.jpg'
+import imgContact from '../images/SC-WEB-Averiguadores.jpg'
 
-
-
-import './App.css'
 
 
 

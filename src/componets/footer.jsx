@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import wspSvg from './assets/whatsapp.svg'
+import wspSvg from '../images/whatsapp.svg'
 
 function Footer (){
 
