@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import imgSection from '../images/SC-WEB-Banner-home-1.jpg'
+import imgSection from '../images/SC-WEB-Banner-home-1.png'
 import imgContact from '../images/SC-WEB-Averiguadores.jpg'
 import gymLogo from '../images/logo-gym.png'
 import MenuResponsive from '../componets/MenuResponsive'
 
-
+import './slider.css'
 
 
 
@@ -15,10 +15,10 @@ function Slider() {
     <>  
 
         
-        <section className="slider max-lg:flex max-lg:w-[430px]">
+        <section className="slider">
             <div className="container-slider flex h-26 bg-black max-lg:h-[440px] max-lg:justify-center max-lg:items-center">
 
-                <div className="container-text-tittle flex justify-center text-center w-6/12 max-lg:h-96 max-lg:absolute  max-lg:w-full">
+                <div className="container-text-tittle flex justify-center text-center w-6/12 max-lg:h-96 max-lg:absolute max-lg:w-full">
 
                     <div className="contenido flex justify-center  flex-col w-6/12 h-6/12  max-lg:w-full">
 
@@ -47,7 +47,7 @@ function Slider() {
                     </div>
                 </div>
 
-                <div className="container-img max-lg:bg-red-400 max-lg:h-full flex max-lg:overflow-auto">
+                <div className="container-img flex max-lg:bg-red-400 max-lg:h-full">
 
                     <img src={imgSection} alt="" className=''/>
 
