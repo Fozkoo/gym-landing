@@ -1,0 +1,23 @@
+
+
+
+@media (max-width:978px){
+   
+    
+    .container-img-slider {
+        display: flex;
+        align-items: center;
+        height: 460px;
+        overflow: hidden !important;
+    }
+    
+    
+    .container-img-slider img {
+        overflow: hidden;
+        aspect-ratio: 1 /1;
+        object-fit: cover;
+        transform: scale(1.1);
+        filter: brightness(0.4);
+    }
+    
+}
