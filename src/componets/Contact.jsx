@@ -10,9 +10,9 @@ function Contact() {
 
   return (
     <>
-        <section className='Contact-section max-lg:bg-[#BEBEBE]'>
+        <section className='Contact-section bg-[#BEBEBE] max-lg:bg-[#BEBEBE]'>
 
-        <div className="container-slider flex h-[550px] mt-10  max-lg:justify-center ">
+        <div className="container-slider flex h-[550px] pt-10  max-lg:justify-center ">
                 <div className="container-text-tittle flex justify-center text-center w-6/12  max-lg:hidden">
                     <img src={imgContact} alt="" />
                 </div>
