@@ -25,7 +25,7 @@ function Contact() {
                             <h2 className='text-xl'>NUEVOS SOCIOS</h2>
                         </div>
                         <div className="text2   font-semibold text-white w-4/6 max-lg:w-5/6">
-                            <h2 className='text-3xl'>Escribinos para conocer más sobre nosotros</h2>
+                           <h2 className='text-3xl'>Escribinos para conocer más sobre nosotros</h2>
                         </div>
 
                         <div className="text3  font-bold  w-4/6 text-[#8F8F8F] max-lg:w-11/12">
